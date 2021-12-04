@@ -16,8 +16,9 @@ function keyReturn(event) {
 }
 
 // Write a loop that runs the array elements through the function
-function eventHandler(note) {
-    
+function eventHandlers(note) {
+    note.mousedown = keyPlay
+    note.mouseup = keyReturn
 }
 
 // These variables store the buttons that progress the user through the lyrics
