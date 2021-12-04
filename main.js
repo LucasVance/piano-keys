@@ -21,7 +21,7 @@ keys.forEach(function (key) {
 
 // Write named functions that change the color of the keys below
 function keyPlay(event) {
-  event.target.style.backgroundColor = "9e9e9e";
+  event.target.style.backgroundColor = "#9e9e9e";
 }
 
 // Write a named function with event handler properties
